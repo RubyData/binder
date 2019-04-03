@@ -1,7 +1,3 @@
-FROM rubydata/notebooks
-
-ADD . $HOME
-
-USER root
-RUN chown -R ${NB_UID} ${HOME}
-USER ${NB_USER}
+FROM rubydata/datascience-notebook:c9ca70040856
+ENV TAG=c9ca70040856
+ADD ruby-data.ipynb .
