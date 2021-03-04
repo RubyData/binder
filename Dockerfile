@@ -1,3 +1,3 @@
-FROM rubydata/datascience-notebook:e1a22a2
-ENV TAG=e1a22a2
+FROM rubydata/datascience-notebook:32416bcafb87
+ENV TAG=32416bcafb87
 ADD ruby-data.ipynb .
